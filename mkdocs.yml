@@ -1,4 +1,11 @@
 site_name: William Cher
-site_url: https://www.google.com/
+site_url: https://flyingfoxie.github.io/william-cher.github.io/
 theme:
     name: terminal
+markdown_extensions:
+  - def_list
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
